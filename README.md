@@ -123,3 +123,20 @@ Assim como pode ser visto na imagem acima, o sistema Facade tem o controle total
   #### Solução: Atributos foram todos movidos para a própria classe de contato, isolando suas funções.
 - Encapsulate Field: A maior parte dos atributos nas classes estavam públicos.
   #### Solução: Os atributos que revelam dados sensíveis foram encapsulados.
+
+---
+
+## 🛠️ Testes:
+
+- Testes unitários com JUnit: Cada classe foi testada com seus métodos correspondentes, incluindo cada definição e retorno de informações de atributos da classe.
+
+![image](https://github.com/user-attachments/assets/f596387d-209d-4599-beec-981aa1eae961)
+### Teste de criação de ADMIN, validando a inserção de atributos e verificando a corresponência das informações.
+
+![image](https://github.com/user-attachments/assets/acee47df-999c-4ab0-850c-3ed83ee08df2)
+### Teste de criação de CONTATO, validando a inserção de atributos e verificando a corresponência das informações.
+
+![image](https://github.com/user-attachments/assets/e99e7be6-b594-49dd-a10e-8b6c11823f99)
+### Teste de criação de PIXEL, validando a inserção de atributos e verificando a corresponência das informações dentro de uma única chamada de teste.
+
+Obs.: Todos os testes seguem o mesmo padrão e todas as classes criadas foram testadas com testes unitários.
