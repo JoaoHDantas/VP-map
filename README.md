@@ -140,3 +140,6 @@ Assim como pode ser visto na imagem acima, o sistema Facade tem o controle total
 ### Teste de criação de PIXEL, validando a inserção de atributos e verificando a corresponência das informações dentro de uma única chamada de teste.
 
 Obs.: Todos os testes seguem o mesmo padrão e todas as classes criadas foram testadas com testes unitários.
+
+![image](https://github.com/user-attachments/assets/22404ede-6c7f-4230-ae76-95406ef2f87f)
+
