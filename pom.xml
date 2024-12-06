@@ -16,7 +16,7 @@
 
     <!-- Dependências do projeto -->
     <dependencies>
-        <!-- JUnit 5 para testes -->
+        <!-- Dependência única do JUnit 5 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -24,6 +24,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 
     <!-- Configuração de build -->
     <build>
