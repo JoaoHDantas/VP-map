@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ValorantPixels.iml" filepath="$PROJECT_DIR$/ValorantPixels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VP-map.iml" filepath="$PROJECT_DIR$/VP-map.iml" />
     </modules>
   </component>
 </project>
