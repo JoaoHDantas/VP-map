@@ -115,7 +115,7 @@ Assim como pode ser visto na imagem acima, o sistema Facade tem o controle total
 
 ## 🧠 Refatorações no código:
 
-- Extract Class (Extração de Classe): A classe User e a classe Admin continham informações referentes ao contato direto, sendo assim, realizando mais de uma tarefa ao mesmo tempo. Dessa forma, tal restrição estava em desacordo com o método SOLID, em seu primeiro princípio (Princípio da responsabilidade única). 
+- Extract Class: A classe User e a classe Admin continham informações referentes ao contato direto, sendo assim, realizando mais de uma tarefa ao mesmo tempo. Dessa forma, tal restrição estava em desacordo com o método SOLID, em seu primeiro princípio (Princípio da responsabilidade única). 
   #### Solução: Criação da classe contato
 - Move Method: Os métodos referentes ao uso e a manipulação dos dados ainda estavam presos na classe User e Admin.
   #### Solução: Métodos foram todos movidos para a própria classe de contato, isolando suas funções.
