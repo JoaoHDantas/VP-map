@@ -117,9 +117,9 @@ Assim como pode ser visto na imagem acima, o sistema Facade tem o controle total
 
 - Extract Class (Extração de Classe): A classe User e a classe Admin continham informações referentes ao contato direto, sendo assim, realizando mais de uma tarefa ao mesmo tempo. Dessa forma, tal restrição estava em desacordo com o método SOLID, em seu primeiro princípio (Princípio da responsabilidade única). 
   #### Solução: Criação da classe contato
-- Move Method (Mover método): Os métodos referentes ao uso e a manipulação dos dados ainda estavam presos na classe User e Admin.
+- Move Method: Os métodos referentes ao uso e a manipulação dos dados ainda estavam presos na classe User e Admin.
   #### Solução: Métodos foram todos movidos para a própria classe de contato, isolando suas funções.
-- Move Field (Mover atributo): Os atributos referentes ao uso e a manipulação dos dados ainda estavam presos na classe User e Admin.
+- Move Field: Os atributos referentes ao uso e a manipulação dos dados ainda estavam presos na classe User e Admin.
   #### Solução: Atributos foram todos movidos para a própria classe de contato, isolando suas funções.
-- Encapsulate Field (Encapsular Atributo): A maior parte dos atributos nas classes estavam públicos.
+- Encapsulate Field: A maior parte dos atributos nas classes estavam públicos.
   #### Solução: Os atributos que revelam dados sensíveis foram encapsulados.
