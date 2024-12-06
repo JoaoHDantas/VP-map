@@ -92,3 +92,18 @@ O site não se limita apenas à experiência positiva de iniciantes: jogadores e
 
 - **Restrições de Postagens**: No início, o sistema terá pouca variedade de pixels disponíveis.
 - **Restrição de Conhecimento**: O sistema possui um público-alvo bem definido e não é amplamente diversificado.
+
+## 🎲 Padrão de projeto
+
+- O padrão de projeto escolhido para o desenvolvimento das classes foi o Facade. Assim como o seu objetivo principal, esse padrão estrutural cria uma interface simplificada para a utilização de métodos do conjunto de classes:
+
+![image](https://github.com/user-attachments/assets/34149c5f-1f19-4a1f-82d4-a4e9b19ee7e0)
+
+Assim como pode ser visto na imagem acima, o sistema Facade tem o controle total sobre os métodos envolvendo os pixels e os agentes diretos. Dessa forma, a responsabilidade das classes Admin e User passam para o sistemaFacade.
+
+## ⚙️ Tecnologias/Frameworks
+
+- JUnit (Testes Unitários)
+- Swing UI Designer (Interface de uso)
+- MySQL (Banco de dados)
+
